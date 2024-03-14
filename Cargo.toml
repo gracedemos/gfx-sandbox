@@ -1,0 +1,13 @@
+[package]
+name = "gfx-sandbox"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = { version = "1.14.3", features = ["derive"] }
+image = { version = "0.25.0", features = ["png", "jpeg"] }
+tokio = { version = "1.36.0", features = ["full"] }
+wgpu = "0.19.3"
+winit = "0.29.14"
